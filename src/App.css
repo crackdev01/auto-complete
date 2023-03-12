@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  font-size: 3rem;
+  color: white;
+}
+
+.App-container {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.autocomplete > ul {
+  position: relative;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid;
+}
+
+.autocomplete > ul > li {
+  cursor: pointer;
+  width: 100%;
+}
+
+.autocomplete > ul > li:hover {
+  cursor: pointer;
+  background-color: #9e9fa1;
+}
+
+.empty {
+  border: 1px solid;
+}
+
+.bold {
+  font-weight: bold;
+}
